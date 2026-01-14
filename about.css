@@ -8,27 +8,31 @@ body{
     background-color:rgb(228, 245, 247); 
     color:#308671;
 }
+header h3{
+    font-size: 3.5rem;
+    color:#02291d;
+    margin-bottom: 10px;
+    border:2px;
+    background-color: rgb(189, 240, 214);
+  
+}
 .tittle-container{
-    margin: 22px 132px;
-    border:3px solid #ddd;
+    margin: 12px 22px;
+    border:3px ;
     border-radius: 42px;
     padding-top: 17px;
-    background-color: rgb(248, 240, 230);
-}
- .about-text h2{
-    font-size: 3.5rem;
-    color:var(--secondary-color) ;
-    margin-bottom: 10px;
-    margin-left: 15px;
-  
+    
 }
 .about-text p{
     color: #0f0000;
     max-width: 1000px;;
     font-size: 2.5rem;
     margin-bottom: 17px;
-    margin-left: 15px;
-    padding-top: 22px;
+    margin-left: 4px;
+    
+}
+.about-text h2{
+    font-size: 3.5rem;
 }
 .about-features i{
     font-size: 2.5rem;
@@ -53,7 +57,7 @@ body{
     color: rgb(5, 0, 0);
 }
 .icons1{
-    font-size: 23px;
+    font-size: 13px;
     display: flex;
     gap: 12px;
 }

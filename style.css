@@ -6,15 +6,16 @@
 }
 body{
     /* margin: 15px; */
-    background-color: rgb(1, 39, 39);
+    background-color: rgb(238, 226, 221);
+    align-items: center;
 }
 .tittle{
     font-size: 48px;
 }
 header{
    
-    color: #0f8b65;
-    /* background-color:rgb(251, 253, 251); */
+    color:#02291d;
+    background-color: rgb(189, 240, 214);;
     display: flex;
     justify-content:space-between;
     align-items:center;
@@ -53,7 +54,7 @@ h4{
 }
 .button1{
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 .first{
     padding: 10px 60px;
@@ -310,7 +311,7 @@ img{
     display: flex;
     gap: 12px;
 }
-@media(max-width:580px){
+@media(max-width:480px){
     .tittle{
         font-size: 14px;
     }
@@ -325,19 +326,22 @@ img{
 
     }
     h4{
-        font-size: 14px;
-    }
-    .up h1{
         font-size: 24px;
     }
+    .up h1{
+        font-size: 35px;
+    }
     .first{
-        padding: 3px 6px;
-        font-size: 12px;
+        padding: 5px 9px;
+        font-size: 19px;
+        /* max-width: 100%; */
+        margin: 5px;
     
     }
      .second{
-        padding: 3px 6px;
-        font-size: 12px;
+        padding: 5px 9px;
+        font-size: 19px;
+        margin: 5px;;
     
     }.img{
         max-width: 100%;
@@ -354,8 +358,9 @@ img{
     }
     .button1{
         display: flex;
+        max-width: 100%;
         flex-direction: column;
-        gap: 12px;
+        gap: 0px;
     }
    .features{
     flex-direction: column;
