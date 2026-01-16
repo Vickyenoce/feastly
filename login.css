@@ -27,7 +27,7 @@ header{
     color: rgb(50, 167, 128);
 }
 .hero h6{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     padding-top: 10px;
     text-align: left;
@@ -101,7 +101,7 @@ button:hover{
     margin-left: 13px;
    }
    .hero{
-    margin: 12px 94px;
+    margin: 12px 14px;
     align-items: left;
     overflow: hidden;
    }
