@@ -15,8 +15,13 @@ header h3{
     margin-bottom: 10px;
     border:2px;
     background-color: rgb(189, 240, 214);
-  
-}
+  }
+ img{
+width: 580px;
+height:auto;
+border: 2px solid#ffeeee;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
 .tittle-container{
     margin: 12px 22px;
     border:3px ;
