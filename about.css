@@ -9,8 +9,8 @@ body{
     color:#308671;
 }
 header h3{
-    font-size: 3.5rem;
-    font-family: sans-serif;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
     color:#02291d;
     margin-bottom: 10px;
     border:2px;
@@ -23,7 +23,6 @@ border: 2px solid#ffeeee;
 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   }
 .tittle-container{
-    margin: 12px 22px;
     border:3px ;
     border-radius: 42px;
     padding-top: 17px;
@@ -31,7 +30,7 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 .about-text p{
     color: #02291d;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 900px;;
+    max-width: 1000px;;
     font-size: 2.5rem;
     margin-bottom: 17px;
     margin-left: 4px;
@@ -49,7 +48,7 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 .about-features i{
     font-size: 2.5rem;
     margin-bottom: 6px;
-    margin-left:15px ;
+    margin-left:10px ;
     padding-bottom: 10px;
     color: #02291d;
 }
@@ -89,6 +88,10 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     }
     .about-features i{
         font-size: 1.5rem;
+    }
+    img{
+        width: 280px;
+        height: auto;
     }
 
 }
