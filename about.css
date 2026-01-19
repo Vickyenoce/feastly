@@ -5,12 +5,14 @@
 }
 body{
     margin: 0;
-    background-color:rgb(213, 230, 224); 
-    color:#308671;
+    background-color:#f6fdf9; 
+    color:#222;
+    line-height: 1.6;
+    font-size: 17px;
 }
 header h3{
     font-size: 2.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#02291d;
     margin-bottom: 10px;
     border:2px;
@@ -20,7 +22,8 @@ header h3{
 width: 580px;
 height:auto;
 border: 2px solid#ffeeee;
-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   }
 .tittle-container{
     border:3px ;
@@ -29,9 +32,9 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     padding-top: 17px;
 }
 .about-text p{
-    color: #02291d;
+    color: #222;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 1000px;;
+    max-width: 1100px;;
     font-size: 1.5rem;
     margin-bottom: 17px;
     margin-left: 4px;
@@ -44,18 +47,19 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .about-text h2{
-    font-size: 3.5rem;
+    font-size: 28px;
+    color: #0f766e;
 }
 .about-features i{
     font-size: 2.5rem;
     margin-bottom: 6px;
     margin-left:10px ;
     padding-bottom: 10px;
-    color: #02291d;
+    color: #222;
 }
 .about-features span{
     font-size: 1.5rem;
-    color: #02291d;
+    color: #222;
     padding-bottom: 10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -69,30 +73,36 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
     background-color:  rgba(2, 3, 37, 0.507);
     color: rgb(5, 0, 0);
+    align-items: center;
 }
 .icons1{
     font-size: 13px;
     display: flex;
     gap: 12px;
 }
-@media(max-width:580px){
+@media(max-width:768px){
      .tittle-container{
-      margin: 12px 45px;
+      margin: 12px;
+      padding: 20px;
     }
      .about-text h2{
-    font-size: 2.5rem;}
+    font-size: 23px;}
     .about-text p{
-        font-size: 1.5rem;
+        font-size: 12px;
+        max-width: 230px;
     }
     .about-text span{
-        font-size: 1.5rem;
+        font-size: 10px;
     }
     .about-features i{
-        font-size: 1.5rem;
+        font-size: 12px;
     }
     img{
-        width: 280px;
+        width: 220px;
         height: auto;
+    }
+    .copy{
+        font-size: 9px;
     }
 
 }
