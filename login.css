@@ -10,8 +10,9 @@ body{
 header{
     font-size: 22px;
     padding: 6px 2px;
-    background-color: rgb(189, 240, 214);
+    background-color: #1abc9c;
     align-items: center;
+    color: white;
 }
 .hero{
     background-color: white;
