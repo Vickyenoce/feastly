@@ -6,8 +6,9 @@
 }
 body{
     /* margin: 15px; */
-    background-color: rgb(238, 226, 221);
+    background-color: azure;
     align-items: center;
+    font-family: 'poppins', sans-serif;
 }
 .tittle{
     font-size: 48px;
@@ -49,7 +50,7 @@ header{
 } 
 h4{
     font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'poppins';
     font-weight: 500;
 }
 .button1{
@@ -58,7 +59,7 @@ h4{
 }
 .first{
     padding: 10px 60px;
-    font-size: 22px;
+    font-size: 28px;
     background-color: #0f8b65;
     color: white;
     justify-content: center;
@@ -73,12 +74,10 @@ h4{
 }
 .second{
     padding: 10px 60px;
-    font-size: 22px;
+    font-size: 28px;
     border: 2px solid #0f8b65;
-    ;
     background-color: rgb(254, 255, 254);
     color:#0f8b65;
-    ;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.6);
     margin-bottom: 20px;
@@ -116,19 +115,19 @@ img{
 
 }
 .about{ 
-    margin-top: 50px;
+    margin-top: 30px;
     padding-bottom:10px;
     background-color: aliceblue;
 
 }
 .about h2{
-    font-size: 40px;
+    font-size: 49px;
     text-align: center;
     padding-top:25px;
     /* word-spacing: 9px; */
 }
 .about h5{
-    font-size: 12px;
+    font-size: 22px;
     text-align: center;
     padding: 8px 0;
     /* word-spacing:6px ; */
@@ -177,7 +176,7 @@ img{
     font-size: 30px;
 }
 .feature-card p{
-    font-size: 16px;
+    font-size: 19px;
 }
 .more{
     background-color: azure;
@@ -333,14 +332,14 @@ img{
     }
     .first{
         padding: 5px 9px;
-        font-size: 19px;
+        font-size: 22px;
         /* max-width: 100%; */
         margin: 5px;
     
     }
      .second{
         padding: 5px 9px;
-        font-size: 19px;
+        font-size: 22px;
         margin: 5px;;
     
     }.img{
@@ -379,22 +378,17 @@ img{
 
    }
   .feature-card h3{
-    font-size: 20px;
+    font-size: 29px;
    }
   .feature-card p{
-    font-size: 12px;
-   }
-  .about{ 
-    margin-top: 50px;
-    padding-bottom:10px;
-    background-color: aliceblue;
+    font-size: 18px;
    }
   .about h2{
-    font-size: 20px;
+    font-size: 30px;
 
    }
   .about h5{
-    font-size: 12px;
+    font-size: 18px;
     
    }
    .card1{
@@ -413,4 +407,4 @@ img{
     flex-direction: column;
 }
   
-}   
+}
